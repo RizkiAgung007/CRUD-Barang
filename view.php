@@ -29,7 +29,7 @@ if (isset($_GET['id'])) {
         <div class="bg-white p-8 rounded-lg shadow-md mb-6 max-w-lg mx-auto border border-gray-200">
             <div class="space-y-4">
                 <div class="flex justify-between items-center">
-                    <span class="font-medium text-gray-700">ID:</span>
+                    <span class="font-medium text-gray-700">No:</span>
                     <span class="text-gray-900"><?php echo $barang['id']; ?></span>
                 </div>
                 <div class="flex justify-between items-center">

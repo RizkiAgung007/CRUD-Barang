@@ -35,7 +35,7 @@ if (isset($_GET['delete'])) {
         <table class="min-w-full bg-white shadow-md rounded-lg">
             <thead class="bg-gray-200">
                 <tr>
-                    <th class="py-2 px-4 border-b text-center">ID</th>
+                    <th class="py-2 px-4 border-b text-center">No</th>
                     <th class="py-2 px-4 border-b text-center">Nama Barang</th>
                     <th class="py-2 px-4 border-b text-center">Jumlah Stok</th>
                     <th class="py-2 px-4 border-b text-center">Harga Barang</th>
