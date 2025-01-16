@@ -42,12 +42,12 @@ if (isset($_POST['create'])) {
                 <input type="text" name="harga_barang" id="harga_barang" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
             </div>
             <div class="flex justify-end">
-                <button type="submit" name="create" class="bg-green-500 text-white py-2 px-4 rounded">Tambah Barang</button>
+                <button type="submit" name="create" class="bg-green-500 hover:bg-green-700 transition duration-200 text-white py-2 px-4 rounded">Tambah Barang</button>
             </div>
         </form>
 
         <!-- Kembali ke Halaman Utama -->
-        <a href="index.php" class="bg-blue-500 text-white py-2 px-4 rounded">Kembali ke Daftar Barang</a>
+        <a href="index.php" class="bg-blue-500 hover:bg-blue-700 transition duration-200 text-white py-2 px-4 rounded">Kembali ke Daftar Barang</a>
     </div>
 </body>
 </html>

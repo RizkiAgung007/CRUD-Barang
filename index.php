@@ -29,7 +29,7 @@ if (isset($_GET['delete'])) {
         <h1 class="text-3xl font-bold mb-6">Data Barang</h1>
 
         <!-- Button untuk membuat list barang -->
-        <a href="create.php" class="bg-green-500 text-white py-2 px-4 rounded mb-6 inline-block">Tambah Barang</a>
+        <a href="create.php" class="bg-green-500 hover:bg-green-700 transition duration-200 text-white py-2 px-4 rounded mb-6 inline-block">Tambah Barang</a>
 
         <!-- Daftar Barang -->
         <table class="min-w-full bg-white shadow-md rounded-lg">

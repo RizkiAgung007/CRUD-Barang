@@ -49,11 +49,11 @@ if (isset($_POST['update'])) {
                 <input type="text" name="harga_barang" id="harga_barang" value="<?php echo $barang['harga_barang']; ?>" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
             </div>
             <div class="flex justify-end">
-                <button type="submit" name="update" class="bg-green-500 text-white py-2 px-4 rounded">Update Barang</button>
+                <button type="submit" name="update" class="bg-green-500 hover:bg-green-700 transition duration-200 text-white py-2 px-4 rounded">Update Barang</button>
             </div>
         </form>
 
-        <a href="index.php" class="bg-blue-500 text-white py-2 px-4 rounded">Kembali ke Daftar Barang</a>
+        <a href="index.php" class="bg-blue-500 hover:bg-blue-700 transition duration-200 text-white py-2 px-4 rounded">Kembali ke Daftar Barang</a>
     </div>
 </body>
 </html>
